@@ -1,0 +1,46 @@
+.app__exerciseCard{
+    width: 400px;
+    height: 480px;
+    background:white;
+    border: 5px solid black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: 0.3s all ease-in-out;
+}
+.app__exerciseCard:hover{
+    transform: scale(1.02);
+    transition: 0.5s all ease-in-out;
+    border: none;
+}
+.app__exerciseCard img{
+    height: 326px;
+}
+.app__exerciseCard > div, button,h1{
+    text-transform:capitalize;
+    margin: auto;
+}
+
+.app__exerciseCard > h1{
+    font-size: 18px;
+    text-align: center;
+    margin: 1rem 2rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 300px){
+    .app__exerciseCard{
+        width: 250px;
+        height: 410px;
+    }
+}
+
+
+
+
+
+
+
+

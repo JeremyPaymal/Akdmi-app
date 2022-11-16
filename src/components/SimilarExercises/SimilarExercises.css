@@ -1,0 +1,16 @@
+.app__similarexercises{
+   margin: 5rem;
+}
+
+.app__similarexercises-content > h1{
+    background-color: black;
+    color: white;
+    margin: 2rem 12rem;
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+

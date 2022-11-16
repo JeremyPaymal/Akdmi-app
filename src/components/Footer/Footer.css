@@ -1,0 +1,33 @@
+.app__footer{
+    background: black;
+    border-top: 1px solid white;
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+    width:100%;
+}
+
+.app__footer img{
+    height: 120px;
+}
+
+.app__footer-links{
+    color: white;
+}
+
+.permalinks > li{
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+.permalinks > li:hover{
+    transform: scale(1.2);
+    margin: 0 5px;
+    transition: 1s all;
+}
+
+.permalinks > li:nth-child(2){
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}

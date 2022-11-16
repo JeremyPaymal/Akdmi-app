@@ -1,0 +1,44 @@
+.app__bodyPart{
+    align-items: center;
+}
+
+.app__bodyPart img{
+    height: 90px;
+    
+   
+}
+
+.app__bodyPart-card{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.app__bodyPart-card > h1{
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.app__bodyPart > button{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+    .app__bodyPart-card{
+        width: 200px;
+       
+    }
+}
+@media screen and (max-width: 280px) {
+    .app__bodyPart-card{
+        width: 180px;
+        height: 250px;
+    }
+
+    .app__bodyPart-card > h1{
+        font-size: 20px;
+    }
+}

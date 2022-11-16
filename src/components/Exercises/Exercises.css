@@ -1,0 +1,13 @@
+.app__exercises-article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.app__exercises-pagination{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
